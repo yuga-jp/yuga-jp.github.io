@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer utilities {
+  .active {
+    --tw-text-opacity: 1;
+    color: rgb(253 186 116 / var(--tw-text-opacity));
+  }
+}

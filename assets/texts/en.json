@@ -1,0 +1,49 @@
+{
+  "name": "Yuga Sonda",
+  "name_ja": "孫田 悠河",
+  "about": [
+    {
+      "content": "As a user-centered designer, I have a proven track record of crafting intuitive and visually appealing user interfaces. My experience in designing the user interface for the e-commerce platform \"StyleMart\" significantly improved user engagement and conversion rates. I am proficient in Figma and Adobe XD, and have a deep understanding of responsive design principles."
+    }
+  ],
+  "education": [
+    {
+      "title": "The University of Tokyo",
+      "start": "2025.4",
+      "end": null,
+      "content": ""
+    },
+    {
+      "title": "Keio University",
+      "start": "2021.4",
+      "end": "2025.3",
+      "content": ""
+    },
+    {
+      "title": "Shiba Senior High School",
+      "start": "2017.4",
+      "end": "2020.3",
+      "content": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Wanderlust Inc.",
+      "start": "2024.10",
+      "end": null,
+      "content": ""
+    },
+    {
+      "title": "blankpad Inc.",
+      "start": "2023.9",
+      "end": "2023.10",
+      "content": ""
+    },
+    {
+      "title": "ALC PRESS INC.",
+      "start": "2023.3",
+      "end": "2023.9",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Yuga Sonda",
+  "name_ja": "孫田 悠河",
+  "about": [
+    {
+      "content": "私は、ユーザー視点に立ったデザインを心がけるデザイナーです。ECサイト「StyleMart」のUIデザインを担当し、ユーザーエンゲージメント向上に貢献しました。FigmaやAdobe XDを駆使し、レスポンシブデザインにも強みを持っています。"
+    }
+  ],
+  "education": [
+    {
+      "title": "東京大学",
+      "start": "2025.4",
+      "end": null,
+      "content": "大学院 情報理工学系研究科 創造情報学専攻に在籍。"
+    },
+    {
+      "title": "慶應義塾大学",
+      "start": "2021.4",
+      "end": "2025.3",
+      "content": "理工学部 物理情報工学科に在籍。学部3年の12月から渡辺研究室に所属。"
+    },
+    {
+      "title": "芝高等学校",
+      "start": "2017.4",
+      "end": "2020.3",
+      "content": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "株式会社Wanderlust",
+      "start": "2024.10",
+      "end": null,
+      "content": ""
+    },
+    {
+      "title": "株式会社blankpad",
+      "start": "2023.9",
+      "end": "2023.10",
+      "content": ""
+    },
+    {
+      "title": "株式会社アルク",
+      "start": "2023.3",
+      "end": "2023.9",
+      "content": ""
+    }
+  ]
+}
