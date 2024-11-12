@@ -78,7 +78,7 @@ function toggleLangMenu() {
   isMenuOpen = !isMenuOpen;
 }
 
-addEventListener("click", (event) => {
+window.addEventListener("click", (event) => {
   let isLangButton = false;
   if (event.target === langButton) {
     isLangButton = true;
@@ -91,7 +91,7 @@ addEventListener("click", (event) => {
 });
 
 // Initial setup
-addEventListener("load", () => {
+window.addEventListener("load", () => {
   if (window.matchMedia("(prefres-color-scheme: dark)").matches) {
     document.documentElement.classList.add("dark");
   }
