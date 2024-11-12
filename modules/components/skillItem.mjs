@@ -1,6 +1,6 @@
 function createSkillItem(data, imageScale) {
   const skillItem = document.createElement("li");
-  skillItem.classList.add("relative", "flex", "h-14", "w-14", "items-center", "justify-center", "rounded-full", "bg-gradient-to-br", "from-neutral-50", "to-neutral-100", "to-20%", "text-base", "shadow-md", "sm:h-[72px]", "sm:w-[72px]", "dark:from-neutral-700", "dark:to-neutral-800", "dark:shadow-none", "dark:ring-1", "dark:ring-neutral-900");
+  skillItem.classList.add("relative", "flex", "h-14", "w-14", "items-center", "justify-center", "rounded-full", "bg-gradient-to-br", "from-neutral-50", "to-neutral-100", "to-20%", "text-base", "shadow", "sm:h-[72px]", "sm:w-[72px]", "dark:from-neutral-700", "dark:to-neutral-800", "dark:shadow-none", "dark:ring-1", "dark:ring-neutral-900");
 
   const progressIndicator = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   progressIndicator.classList.add("absolute");
