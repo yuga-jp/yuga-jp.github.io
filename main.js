@@ -106,6 +106,16 @@ addEventListener("load", () => {
   setProjects();
 });
 
+const mql_color = window.matchMedia("(prefers-color-scheme: dark");
+
+mql_color.addEventListener("change", (e) => {
+  if (e.matches) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+});
+
 // Media queries 640px
 const mql_640 = window.matchMedia("(min-width: 640px)");
 
