@@ -15,7 +15,7 @@ for (const langSelectorItem of languageSelectorItems) {
 const themeButton = document.querySelector("#theme-button");
 
 themeButton.addEventListener("click", () => {
-  document.documentElement.classList.toggle("dark");
+  document.documentElement.classList.toggle("dark", localStorage.getItem("theme") === "dark" || localStorage.getItem("theme") === null && window.matchMedia("(prefers-color-scheme: dark)").matches);
 });
 
 const profileNavigationItem = document.querySelector("#navigation-profile");
@@ -92,6 +92,7 @@ addEventListener("click", (event) => {
 
 // Skills list
 addEventListener("load", () => {
+  document.documentElement.classList.toggle("dark", localStorage.getItem("theme") === "dark" || localStorage.getItem("theme") === null && window.matchMedia("(prefers-color-scheme: dark)").matches);
   setTexts("en");
   setLinks();
   if (innerWidth >= 640) {
