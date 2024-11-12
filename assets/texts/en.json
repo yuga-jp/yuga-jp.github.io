@@ -11,19 +11,19 @@
       "title": "The University of Tokyo",
       "start": "2025.4",
       "end": null,
-      "content": ""
+      "content": "I am scheduled to enroll in Department of Creative Informatics, Graduate School of Information Science and Technology, under the supervision of Professor Ugawa."
     },
     {
       "title": "Keio University",
       "start": "2021.4",
       "end": "2025.3",
-      "content": ""
+      "content": "I majored in Applied Physics and Physico-Informatics at Faculty of Science and Technology. I joined the Watanabe laboratory in December of my third year."
     },
     {
       "title": "Shiba Senior High School",
       "start": "2017.4",
       "end": "2020.3",
-      "content": ""
+      "content": "I was a member of the radio club and learned the basics of programming by creating games using C++ and the DX library."
     }
   ],
   "experience": [
@@ -31,19 +31,19 @@
       "title": "Wanderlust Inc.",
       "start": "2024.10",
       "end": null,
-      "content": ""
+      "content": "As a Product Manager, I am responsible for planning and developing new services."
     },
     {
-      "title": "blankpad Inc.",
+      "title": "Outpace Inc.",
       "start": "2023.9",
       "end": "2023.10",
-      "content": ""
+      "content": "I moved to a new company following the spin-off from ALC PRESS INC."
     },
     {
       "title": "ALC PRESS INC.",
       "start": "2023.3",
       "end": "2023.9",
-      "content": ""
+      "content": "As a engineer, I was involved in the development of a job-hunting matching app."
     }
   ]
 }

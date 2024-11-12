@@ -7,14 +7,8 @@
       "icon": "github"
     },
     {
-      "name": "X",
-      "url": "",
-      "iconType": "font-awesome",
-      "icon": "x-twitter"
-    },
-    {
       "name": "Instagram",
-      "url": "",
+      "url": "https://www.instagram.com/_yu.ga",
       "iconType": "font-awesome",
       "icon": "instagram"
     }
