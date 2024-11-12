@@ -90,8 +90,11 @@ addEventListener("click", (event) => {
   }
 });
 
-// Skills list
+// Initial setup
 addEventListener("load", () => {
+  if (window.matchMedia("(prefres-color-scheme: dark)").matches) {
+    document.documentElement.classList.add("dark");
+  }
   setTexts("en");
   setLinks();
   if (innerWidth >= 640) {
@@ -106,6 +109,7 @@ addEventListener("load", () => {
   setProjects();
 });
 
+// Media queries color scheme
 const mql_color = window.matchMedia("(prefers-color-scheme: dark");
 
 mql_color.addEventListener("change", (e) => {
