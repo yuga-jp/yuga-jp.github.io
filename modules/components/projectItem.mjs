@@ -8,7 +8,7 @@ function createProjectItem(data) {
   projectLink.setAttribute("target", "_blank");
 
   const projectFigure = document.createElement("figure");
-  projectFigure.classList.add("flex", "h-52", "items-center", "overflow-clip", "rounded-3xl", "transition", "duration-200", "group-hover:blur-sm", "group-hover:brightness-50", "sm:h-80", "sm:rounded-2xl", "md:h-auto");
+  projectFigure.classList.add("flex", "h-52", "items-center", "overflow-clip", "rounded-3xl", "bg-slate-100", "transition-[filter]", "duration-200", "group-hover:blur-sm", "group-hover:brightness-50", "sm:h-80", "sm:rounded-2xl", "md:h-auto", "dark:bg-zinc-800");
 
   const projectImage = document.createElement("img");
   projectImage.classList.add("transition", "duration-200", "group-hover:scale-110");
@@ -45,11 +45,11 @@ function createProjectItem(data) {
   projectLink.appendChild(hoverOverlay);
 
   const projectTitle = document.createElement("h3");
-  projectTitle.classList.add("ml-2", "text-base", "font-normal", "leading-relaxed", "text-slate-50");
+  projectTitle.classList.add("ml-2", "text-base", "font-normal", "leading-relaxed", "text-black", "dark:text-slate-50");
   projectTitle.textContent = data.name;
 
   const projectCategory = document.createElement("p");
-  projectCategory.classList.add("ml-2", "text-sm", "font-light", "text-gray-300", "sm:text-base");
+  projectCategory.classList.add("ml-2", "text-sm", "font-light", "text-gray-700", "sm:text-base", "dark:text-gray-300");
   projectCategory.textContent = data.category;
 
   projectItem.appendChild(projectLink);

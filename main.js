@@ -12,6 +12,12 @@ for (const langSelectorItem of languageSelectorItems) {
   });
 }
 
+const themeButton = document.querySelector("#theme-button");
+
+themeButton.addEventListener("click", () => {
+  document.documentElement.classList.toggle("dark");
+});
+
 const profileNavigationItem = document.querySelector("#navigation-profile");
 const mainNavigationItems = document.querySelectorAll("[data-navigation]");
 const profilePage = document.querySelector("#page-profile");
